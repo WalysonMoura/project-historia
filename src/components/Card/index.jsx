@@ -12,7 +12,7 @@ export default function Card({nome,foto}) {
     <Style.Content>
       <Globals />
       <div>
-      /* eslint-disable @next/next/no-img-element */
+      
         <img src={foto} alt="" />
         <h2>{nome}</h2>
 
