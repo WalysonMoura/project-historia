@@ -39,7 +39,7 @@ export default function Home() {
             </p>
             <Style.Button>Saiba mais...</Style.Button>
           </div>
-
+/* eslint-disable @next/next/no-img-element */
           <img src="/img1.png" />
         </Style.Content>
 
