@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 
@@ -12,8 +13,9 @@ export default function Card({nome,foto}) {
     <Style.Content>
       <Globals />
       <div>
+      <Image src={foto} width={300} height={300} responsive/>
       
-        <img src={foto} alt="" />
+        
         <h2>{nome}</h2>
 
         

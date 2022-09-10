@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import MenuBottom from "../components/MenuBottom";
 
 // Styled Components
@@ -39,8 +40,9 @@ export default function Home() {
             </p>
             <Style.Button>Saiba mais...</Style.Button>
           </div>
+          <Image src="/img1.png" width={800} height={800} responsive/>
 
-          <img src="/img1.png" />
+         
         </Style.Content>
 
         <Style.VideoConteiner>
