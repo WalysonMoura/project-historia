@@ -28,37 +28,45 @@ export default function Home() {
         <div className="cicle4"></div>
         <Style.Content>
           <div>
-            <div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="shadow"></div>
-              <div className="shadow"></div>
-              <div className="shadow"></div>
-            </div>
-            <h1>Getúlio Vargas</h1>
-            <p>
-              Getúlio Vargas, um dos grandes nomes da política brasileira do
-              século XX, foi o presidente que mais tempo governou o nosso país.
-            </p>
-            <Style.Button>Saiba mais...</Style.Button>
+            <Fade top delay={1000} cascade>
+              <div>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="shadow"></div>
+                <div className="shadow"></div>
+                <div className="shadow"></div>
+              </div>
+              <h1>Getúlio Vargas</h1>
+              <p>
+                Getúlio Vargas, um dos grandes nomes da política brasileira do
+                século XX, foi o presidente que mais tempo governou o nosso
+                país.
+              </p>
+              <Style.Button>Saiba mais...</Style.Button>
+            </Fade>
           </div>
-          <Image src="/img1.png" width={800} height={800} alt="imlll agem" responsive/>
-
-         
+          <Image
+            src="/img1.png"
+            width={800}
+            height={800}
+            alt="imlll agem"
+            responsive
+          />
         </Style.Content>
-
-        <Style.VideoConteiner>
-          <section className="video">
-            <iframe
-              src="https://www.youtube.com/embed/eVgOODBrCMc"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </section>
-          <div></div>
-        </Style.VideoConteiner>
+        <Fade>
+          <Style.VideoConteiner>
+            <section className="video">
+              <iframe
+                src="https://www.youtube.com/embed/eVgOODBrCMc"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </section>
+            <div></div>
+          </Style.VideoConteiner>
+        </Fade>
       </Style.Main>
 
       <MenuBottom />
