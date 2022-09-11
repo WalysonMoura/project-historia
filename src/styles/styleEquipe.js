@@ -9,6 +9,8 @@ export const Main = styled.main`
   justify-content: center;
   gap: 2rem;
 
+
+
   h1 {
     font-family: "Poppins", sans-serif;
     font-size: 3.5rem;

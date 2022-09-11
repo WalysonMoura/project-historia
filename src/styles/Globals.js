@@ -77,6 +77,8 @@ body{
     border-radius: 50%;
     filter: blur(120px);
     z-index: -2;
+    overflow-x: hidden;
+
   }
   .cicle1,.cicle4 {
     width: 150px;

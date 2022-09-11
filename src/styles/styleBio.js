@@ -10,6 +10,8 @@ export const Main = styled.main`
   gap: 2rem;
   padding-top: 2rem;
   padding-bottom: 5rem;
+  overflow-x: hidden;
+
 
   h1 {
     font-family: "Poppins", sans-serif;

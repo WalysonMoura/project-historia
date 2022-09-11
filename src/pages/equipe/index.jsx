@@ -11,11 +11,12 @@ export default function Equipe() {
   return (
     <>
       <Globals />
+      
+      <Style.Main>
       <div className="cicle1"></div>
       <div className="cicle2"></div>
       <div className="cicle3"></div>
       <div className="cicle4"></div>
-      <Style.Main>
         <Fade>
           <h1>Equipe</h1>
         </Fade>

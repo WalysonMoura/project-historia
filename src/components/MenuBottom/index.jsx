@@ -19,22 +19,22 @@ export default function MenuBottom() {
                 <Style.MenuList>
                     <li>
                         <Link  href="../../">
-                            <a><HiHome size={35} color="#094D92"/></a>
+                            <a><HiHome  color="#094D92"/></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="../../quiz">
-                            <a><MdQuiz size={35} color="#094D92"/></a>
+                            <a><MdQuiz color="#094D92"/></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="../../biografia">
-                            <a><FaBook size={30} color="#094D92"/></a>
+                            <a><FaBook  color="#094D92"/></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="../../equipe">
-                            <a><FaUsers size={35} color="#094D92"/></a>
+                            <a><FaUsers  color="#094D92"/></a>
                         </Link>
                     </li>
                 </Style.MenuList>

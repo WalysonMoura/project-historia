@@ -23,6 +23,11 @@ export const Menu = styled.header`
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 768px){
+    height: 5rem;
+
+  }
 `;
 
 export const MenuList = styled.ul`
@@ -39,13 +44,22 @@ export const MenuList = styled.ul`
       cursor: pointer;
 
       >svg{
-        color: #8435de;
+       font-size: 3rem;
+        
       }
     }
   }
 
   @media (max-width: 900px) {
     padding: 0 3rem;
+    li{
+    a{
+     
+      >svg{
+     
+      }
+    }
+  }
   }
 
 `;

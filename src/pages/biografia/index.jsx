@@ -10,11 +10,12 @@ export default function Biografia() {
   return (
     <>
       <Globals />
+     
+      <Style.Main>
       <div className="cicle1"></div>
       <div className="cicle2"></div>
       <div className="cicle3"></div>
       <div className="cicle4"></div>
-      <Style.Main>
         <Fade top delay={500} cascade>
           <h1>Resumo</h1>
           
