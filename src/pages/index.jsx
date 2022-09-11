@@ -40,7 +40,7 @@ export default function Home() {
             </p>
             <Style.Button>Saiba mais...</Style.Button>
           </div>
-          <Image src="/img1.png" width={800} height={800} responsive/>
+          <Image src="/img1.png" width={800} height={800} alt="imagem" responsive/>
 
          
         </Style.Content>
