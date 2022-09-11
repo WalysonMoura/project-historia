@@ -73,7 +73,7 @@ body{
 
 
 
-dysplay: flex;
+display: flex;
 
 aliign-items: center;
 
