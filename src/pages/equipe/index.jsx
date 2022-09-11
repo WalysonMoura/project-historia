@@ -24,7 +24,7 @@ export default function Equipe() {
           <Fade cascade>
             <Card nome="Walyson" foto="/walyson.png" />
             <Card nome="cayo" foto="/cayo.png" />
-            <Card nome="ricardo" foto="/ricardo.png" />
+            <Card nome="ricardo" foto="/Ricardo.png" />
             <Card nome="Dheymison" foto="/dhy.png" />
             <Card nome="Geysson" foto="/geysson.png" />
             <Card nome="Reinaldo" foto="/rei.png" />
