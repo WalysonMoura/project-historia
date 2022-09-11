@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 // Styled Components
 
-import * as Style from "./style";
+import * as Style from "../../styles/styleBio";
 import Globals from "../../styles/Globals";
 import Curiosidade from "../../components/Curiosidade";
 import MenuBottom from "../../components/MenuBottom";
