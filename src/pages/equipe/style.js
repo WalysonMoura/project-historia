@@ -18,7 +18,7 @@ export const Main = styled.main`
   }
 `;
 
-export const Conteiner = styled.section`
+export  const Conteiner = styled.section`
  
   width: 100%;
   max-width: 1024px;
