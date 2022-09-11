@@ -73,11 +73,8 @@ body{
 
 
 
-display: flex;
 
-aliign-items: center;
 
-justify-content: center;
 
 }
 
