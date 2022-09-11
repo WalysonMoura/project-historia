@@ -14,7 +14,7 @@ export default function Curiosidade({ titulo, subTitulo, descricao }) {
         <div className="frente">
           <h3>{titulo}</h3>
           <p>{subTitulo}</p>
-          <Image src="/l.png" width={100} height={100} alt="imagem" responsive/>
+          <Image src="/l.png" width={100} height={100} alt="imagemlll ghd" responsive/>
         </div>
 
         <div className="verso">

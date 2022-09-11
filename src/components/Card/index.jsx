@@ -12,7 +12,7 @@ export default function Card({ nome, foto }) {
     <Style.Content>
       <Globals />
       <div>
-        <Image src={foto} width={300} height={300} alt="imagem" responsive />
+        <Image src={foto} width={300} height={300} alt="imageoooo m" responsive />
 
         <h2>{nome}</h2>
       </div>
