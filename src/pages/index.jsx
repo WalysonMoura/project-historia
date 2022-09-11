@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+
+import { Fade } from "react-awesome-reveal";
+
 import MenuBottom from "../components/MenuBottom";
 
 // Styled Components

@@ -1,4 +1,4 @@
-// REACT ICONS
+import { Fade } from "react-awesome-reveal";
 
 // Styled Components
 import * as Style from "./style";
