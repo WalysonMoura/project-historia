@@ -16,14 +16,18 @@ export default function Equipe() {
       <div className="cicle3"></div>
       <div className="cicle4"></div>
       <Style.Main>
-        <h1>Equipe</h1>
+        <Fade>
+          <h1>Equipe</h1>
+        </Fade>
         <Style.Conteiner>
-          <Card nome="Walyson" foto="/walyson.png"/>
-          <Card nome="cayo" foto="/cayo.png"/>
-          <Card nome="ricardo" foto="/ricardo.png"/>
-          <Card nome="Dheymison" foto="/dhy.png"/>
-          <Card nome="Geysson" foto="/geysson.png"/>
-          <Card nome="Reinaldo" foto="/rei.png"/>
+          <Fade cascade>
+            <Card nome="Walyson" foto="/walyson.png" />
+            <Card nome="cayo" foto="/cayo.png" />
+            <Card nome="ricardo" foto="/ricardo.png" />
+            <Card nome="Dheymison" foto="/dhy.png" />
+            <Card nome="Geysson" foto="/geysson.png" />
+            <Card nome="Reinaldo" foto="/rei.png" />
+          </Fade>
         </Style.Conteiner>
       </Style.Main>
       <MenuBottom />

@@ -56,7 +56,7 @@ export const Content = styled.div`
 
     p {
       transform: translateZ(3rem);
-      text-align: justify;
+      text-align: center;
       font-size: 1.2rem;
       color: #0f0f0f;
     }
