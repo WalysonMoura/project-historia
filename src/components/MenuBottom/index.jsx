@@ -23,7 +23,7 @@ export default function MenuBottom() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="https://ricardopinheiro-22.github.io/quiz-historia/quiz_2.html">
+                        <Link href="https://ricardopinheiro-22.github.io/quiz-historia/">
                             <a><MdQuiz color="#094D92"/></a>
                         </Link>
                     </li>
