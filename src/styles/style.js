@@ -4,6 +4,7 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  margin: 0 auto;
 `;
 export const Content = styled.section`
   max-width: 1050px;

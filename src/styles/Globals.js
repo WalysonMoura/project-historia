@@ -69,7 +69,15 @@ body{
 	background-color: #12162d;
 	font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+   
+
+
+
+
+
+
 }
+
 .cicle1,
   .cicle2,
   .cicle3, .cicle4 {
