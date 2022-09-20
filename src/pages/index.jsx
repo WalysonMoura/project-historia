@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Fade } from "react-awesome-reveal";
 
@@ -27,9 +28,8 @@ export default function Home() {
         <div className="cicle3"></div>
         <div className="cicle4"></div>
         <Style.Content>
-        <Fade top delay={1000} cascade>
-          <div>
-            
+          <Fade top delay={1000} cascade>
+            <div>
               <div>
                 <div className="circle"></div>
                 <div className="circle"></div>
@@ -44,17 +44,20 @@ export default function Home() {
                 século XX, foi o presidente que mais tempo governou o nosso
                 país.
               </p>
-              <Style.Button>Saiba mais...</Style.Button>
-          
-          </div>
-         
+              <Link href="/biografia">
+                <a>
+                  <Style.Button>Saiba mais...</Style.Button>
+                </a>
+              </Link>
+            </div>
+
             <Image
               src="/img1.png"
               width={800}
               height={800}
               alt="imlll agem"
               responsive
-              style={{'filter': 'drop-shadow(5px 5px 5px #222)'}}
+              style={{ filter: "drop-shadow(5px 5px 5px #222)" }}
             />
           </Fade>
         </Style.Content>
